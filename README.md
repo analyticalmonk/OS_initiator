@@ -18,5 +18,6 @@ bash ubuntu_setup.sh
 - OpenJDK 9 (Java)
 - VLC Media Player
 - Miniconda
+- R and RStudio
 - Simple Screen Recorder
 - Bumblebee

@@ -28,9 +28,17 @@ sudo apt-get update && sudo apt-get install vlc
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 
+# Install R and RStudio (64-bit)
+sudo add-apt-repository ppa:marutter/rrutter
+sudo apt-get update && sudo apt-get install r-base
+# Download and install RStudio (might encounter dependency issues)
+wget https://download1.rstudio.org/rstudio-1.0.143-amd64.deb
+sudo dpkg -i rstudio-1.0.143-amd64.deb
+sudo apt-get -f install
+
 # Install simplescreenrecorder
-# sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
-# sudo apt update && sudo apt-get install simplescreenrecorder
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt update && sudo apt-get install simplescreenrecorder
 
 # Install bumblebee (used when working with NVIDIA GPUs)
 # sudo apt-get install bumblebee primus
