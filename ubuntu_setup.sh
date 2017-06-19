@@ -21,5 +21,9 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 
+# Install simplescreenrecorder
+# sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+# sudo apt update && sudo apt-get install simplescreenrecorder
+
 # Install bumblebee (used when working with NVIDIA GPUs)
 # sudo apt-get install bumblebee primus

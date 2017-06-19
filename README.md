@@ -16,4 +16,5 @@ bash ubuntu_setup.sh
 - Atom
 - Google Chrome
 - Miniconda
+- Simple Screen Recorder
 - Bumblebee
