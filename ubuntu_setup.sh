@@ -17,6 +17,13 @@ sudo apt-get update && sudo apt-get install atom
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
+# Install OpenJDK 9 (Java)
+sudo apt-get update
+sudo apt-get install openjdk-9-jre-headless openjdk-9-jdk-headless
+
+# Install VLC media player
+sudo apt-get update && sudo apt-get install vlc
+
 # Install Miniconda (package and environment manager for Python)
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh

@@ -15,6 +15,8 @@ bash ubuntu_setup.sh
 - F.lux
 - Atom
 - Google Chrome
+- OpenJDK 9 (Java)
+- VLC Media Player
 - Miniconda
 - Simple Screen Recorder
 - Bumblebee
