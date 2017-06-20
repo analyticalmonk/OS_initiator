@@ -1,12 +1,19 @@
-# UBUNTU Setup
+# OS Initiator
 
-_NOTE: This script was tested on Ubuntu 16.04 LTS_
+Collection of scripts to setup useful software on freshly installed operating systems (OS).
+
+Included OS:
+- [Ubuntu 16.04LTS](#ubuntu16)
+
+Feel free to [contribute](#contributing).
+
+## UBUNTU 16.04LTS
 
 ### Running the script
 
 ```
-git clone https://github.com/analyticalmonk/ubuntu_setup
-cd ubuntu_setup
+git clone https://github.com/analyticalmonk/OS_initiator.git
+cd OS_initiator/ubuntu/ubuntu_setup
 bash ubuntu_setup.sh
 ```
 ### Included software/tools
@@ -21,3 +28,7 @@ bash ubuntu_setup.sh
 - R and RStudio
 - Simple Screen Recorder
 - Bumblebee
+
+## Contributing
+
+Open an issue or send a PR to add to existing scripts or add new OS.
