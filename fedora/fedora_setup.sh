@@ -29,3 +29,6 @@ bash Miniconda3-latest-Linux-x86_64.sh
 
 # Install bumblebee (used when working with NVIDIA GPUs)
 # sudo dnf install bumblebee primus
+
+# Install RPMFusion (3rd party repo for non-free software, similar functionality to AUR, full DnF compatibility)
+# sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
