@@ -49,6 +49,7 @@ bash fedora_setup.sh
 - VLC Media Player
 - Miniconda
 - Bumblebee
+- RPMFusion Software Repo
 
 ## Contributing
 
