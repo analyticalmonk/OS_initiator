@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get install openjdk-9-jre-headless openjdk-9-jdk-headless
 
 # Install VLC media player
-sudo apt-get update && sudo apt-get install vlc
+sudo apt-get install vlc
 
 # Install Miniconda (package and environment manager for Python)
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -39,6 +39,9 @@ sudo apt-get -f install
 # Install simplescreenrecorder
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
 sudo apt update && sudo apt-get install simplescreenrecorder
+
+# Install mkvmerge (allows hardcoding subtitles into videos)
+sudo apt-get install mkvmerge
 
 # Install bumblebee (used when working with NVIDIA GPUs)
 # sudo apt-get install bumblebee primus

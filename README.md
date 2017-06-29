@@ -28,6 +28,7 @@ bash ubuntu_setup.sh
 - Miniconda
 - R and RStudio
 - Simple Screen Recorder
+- MKVmerge
 - Bumblebee
 
 ## FEDORA 23+
