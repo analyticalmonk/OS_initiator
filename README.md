@@ -29,6 +29,7 @@ bash ubuntu_setup.sh
 - R and RStudio
 - Simple Screen Recorder
 - MKVmerge
+- TeX (texlive)
 - Bumblebee
 
 ## FEDORA 23+

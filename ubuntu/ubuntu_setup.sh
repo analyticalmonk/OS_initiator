@@ -43,5 +43,8 @@ sudo apt update && sudo apt-get install simplescreenrecorder
 # Install mkvmerge (allows hardcoding subtitles into videos)
 sudo apt-get install mkvmerge
 
+# Install TeX (texlive) - Uses ~ 3.5GB of disk space
+sudo apt-get install texlive-full
+
 # Install bumblebee (used when working with NVIDIA GPUs)
 # sudo apt-get install bumblebee primus
